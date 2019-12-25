@@ -1,0 +1,83 @@
+/*
+
+.btn-danger {
+	background-color: orange;
+}
+.btn-danger:hover{
+	background-color: black;
+}
+
+.col{
+	background-color: grey;
+	border: 2px solid black;
+}
+
+.container{
+
+}
+*/
+
+
+
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body{
+	font-family: 'Montserrat' sans-serif;
+
+}
+
+hr{
+
+	max-width: 70px;
+	border-width: 3px;
+	border-color: #F05F44;
+
+}
+.faded{
+	color: rgba(255, 255, 255, 0.8);
+}
+
+header.startup{
+	background-position: center;
+	background-image: url(header.jpg);
+	background-size: cover;
+	height: 100%;
+}
+
+header.startup hr{
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+
+header.startup h1{
+	font-size: 2rem;
+}
+
+.btn{
+	text-transform: uppercase;
+	border-radius: 30px;
+	font-family: 'Montserrat' sans-serif;
+	font-weight: 700;
+}
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover{
+	font-weight: 700;
+	border-radius: 30px;
+	background-color: green;
+	text-transform: uppercase;
+	border-color: #F05F44;
+	border-width: 5px;
+	font-family: 'Montserrat' sans-serif;
+
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
